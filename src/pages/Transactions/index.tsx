@@ -1,6 +1,7 @@
 import { Header } from '@/components/Header'
 import { Summary } from '@/components/Summary'
 import { Container, PriceHighlight, Table } from '@/pages/Transactions/styles'
+import { SearchForm } from '@/pages/Transactions/components/SearchForm'
 
 export const Transactions = () => {
   return (
@@ -9,6 +10,8 @@ export const Transactions = () => {
       <Summary />
 
       <Container>
+        <SearchForm />
+
         <Table>
           <tbody>
             <tr>
