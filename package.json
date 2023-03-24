@@ -12,6 +12,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.3",
     "@rocketseat/eslint-config": "^1.2.0",
     "@rollup/plugin-alias": "^4.0.3",
     "@types/node": "^18.15.5",
