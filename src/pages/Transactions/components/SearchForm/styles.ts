@@ -29,8 +29,14 @@ export const Container = styled.form`
     font-weight: bold;
     border-radius: 6px;
     transition: all 0.2s;
+    cursor: pointer;
 
-    &:hover {
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+    &:not(:disabled):hover {
       background: ${({ theme }) => theme['green-500']};
       border: 1px solid ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};
